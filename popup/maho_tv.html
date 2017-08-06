@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="maho.js"></script>
+    <script src="../lib/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="maho.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <h2 class="text-center" style="margin-bottom: 20px;">MahO_Tv est  <span id="stream_status" class="label label-success"></span></h2>
+      </div>  
+      <div id="stream_info" class="row" style="width: 500px;">
+          <div class="col-xs-6">
+            <img id="stream_preview" style='height: 100%; width: 100%; object-fit: contain'></img>
+          </div>
+          <div class="col-xs-6">
+            <h4 id="stream_title"></h4>
+            <h5 id="stream_game"></h5>
+          </div>        
+      </div>
+      <h3 class="text-right text-primary" id="go_to_twitch"></h3>
+    </div>
+  </body>
+
+</html>
